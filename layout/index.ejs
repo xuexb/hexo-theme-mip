@@ -1,6 +1,6 @@
-<% page.posts.each(function(post){ %>
+<% page.posts.forEach(function(post){ %>
     <article class="post">
-        <h2 class="title"> <a href="#"><%= post.title %></a> </h2>
+        <h2 class="title"> <a href="<%= post.path%>"><%= post.title %></a> </h2>
         <div class="meta">
             发布于2017-08-21, 更新于2017-09-23
         </div>
