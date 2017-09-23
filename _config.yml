@@ -1,0 +1,9 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+rss: /atom.xml
+
+# hexo-mip-css
+mip:
+  cssmin: true

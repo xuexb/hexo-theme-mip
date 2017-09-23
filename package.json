@@ -1,0 +1,25 @@
+{
+  "name": "hexo-theme-mip",
+  "version": "0.0.1",
+  "devDependencies": {},
+  "description": "Hexo MIP 模板",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuexb/hexo-theme-mip.git"
+  },
+  "keywords": [
+    "hexo",
+    "mip"
+  ],
+  "author": "xuexb <fe.xiaowu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xuexb/hexo-theme-mip/issues"
+  },
+  "homepage": "https://github.com/xuexb/hexo-theme-mip#readme",
+  "dependencies": {
+    "hexo-mip-css": "^0.1.1"
+  }
+}
