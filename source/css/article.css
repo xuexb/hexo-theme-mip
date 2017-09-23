@@ -1,6 +1,6 @@
 .post {
     position: relative;
-    padding: 10px;
+    padding: 15px 10px;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #ddd;
     word-wrap: break-word;
@@ -13,7 +13,9 @@
 .post .meta {
     color: #666;
 }
-
+.post .more a {
+    color: #2479c2;
+}
 
 .article-content {
     line-height: 1.6em;
