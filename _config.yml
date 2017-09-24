@@ -10,7 +10,7 @@ favicon: /favicon.ico
 startyear: 2017
 
 mip:
-  cssmin: false
+  cssmin: true
   css:
     reset.css
     nav.css
