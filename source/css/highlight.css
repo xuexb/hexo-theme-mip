@@ -3,7 +3,9 @@ pre {
   font-family: "Source Code Pro",Monaco,Menlo,Consolas,monospace;
   font-size: .95em;
   color: #4d4d4c;
-  background: #eee;;
+  background: #eee;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 code {
   padding: 0 5px;

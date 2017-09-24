@@ -54,6 +54,10 @@ archive_generator:
 <img src="https://dummyimage.com/100x100" width="100" height="100" alt="desc">
 ```
 
+### 摘要
+
+在文单合适位置插入 `<!-- more -->` 将提取为主页的摘要文本
+
 ### 描述
 
 - 首页使用 `config.description`
