@@ -156,9 +156,9 @@ h1.title {
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
 }
-.article-content .tip br,
-.article-content .tip-info br,
-.article-content .tip-error br {
+.article-content .tip br:first-child,
+.article-content .tip-info br:first-child,
+.article-content .tip-error br:first-child {
   display: none;
 }
 .article-content .tip-info:before,
