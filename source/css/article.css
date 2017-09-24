@@ -123,12 +123,6 @@ h1.title {
 .article-content video {
   max-width: 100%;
 }
-.article-content blockquote {
-  position: relative;
-  padding: 0 20px;
-  border: 1px solid #e3e3e3;
-  border-left: 5px solid #ddd;
-}
 .article-content table {
   max-width: 100%;
   border: 1px solid #e3e3e3;
@@ -145,12 +139,18 @@ h1.title {
 }
 
 /*tip*/
+.article-content blockquote {
+  position: relative;
+  padding: 0 20px;
+  border: 1px solid #e3e3e3;
+  border-left: 5px solid #ddd;
+}
 .article-content .tip,
 .article-content .tip-info,
 .article-content .tip-error {
   position: relative;
-  margin: 2em 0;
-  padding: 12px 20px;
+  margin: 1em 0;
+  padding: 1em 20px;
   border: 1px solid #e3e3e3;
   border-left: 5px solid #5fb878;
   border-top-right-radius: 2px;
@@ -165,7 +165,7 @@ h1.title {
 .article-content .tip-error:before {
   content: "!";
   position: absolute;
-  top: 14px;
+  top: 16px;
   left: -12px;
   width: 20px;
   height: 20px;
@@ -188,6 +188,5 @@ h1.title {
   border-left-color: #ff5722;
 }
 .article-content .tip-error:before {
-  content: "X";
   background-color: #ff5722;
 }
