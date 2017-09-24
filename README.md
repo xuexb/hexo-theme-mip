@@ -6,12 +6,12 @@ Hexo MIP 模板
 
 ```bash
 # 安装依赖
-npm install --save
-    hexo-renderer-jade
-    hexo-generator-feed
-    hexo-generator-sitemap
-    hexo-browsersync
-    hexo-generator-archive
+npm install --save \
+    hexo-renderer-jade \
+    hexo-generator-feed \
+    hexo-generator-sitemap \
+    hexo-browsersync \
+    hexo-generator-archive \
     hexo-generator-mip
 
 # 克隆主题
@@ -45,6 +45,14 @@ archive_generator:
 
 ## 使用
 
+### 插入图片
+
+由于 [MIP img标签规范](https://www.mipengine.org/examples/mip/mip-img.html) , 在使用图片时必须设置宽高, 如:
+
+```html
+<img src="https://dummyimage.com/100x100" width="100" height="100" alt="desc">
+```
+
 ### 描述
 
 - 首页使用 `config.description`
@@ -71,6 +79,10 @@ archive_generator:
     <div class="tip-error">
         预处理器很强大，但它只是编写 CSS 的辅助工具。出于对扩展和维护等方面的考虑，在大型项目中有必要使用预处理器构建 CSS；但是对于小型项目，原生的 CSS 可能是一种更好的选择。不要肆意使用预处理器！
     </div>
+
+## todo
+
+- [ ] 标签页
 
 ## License
 
