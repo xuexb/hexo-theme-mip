@@ -1,22 +1,21 @@
 menu:
-    Home: /
-    Archive: /archives/
-    About: /post/about.html
-    GitHub: https://github.com/jiandansousuo/jiandansousuo.com
-    Rss: /atom.xml
+  Home: /
+  Archive: /archives/
+  About: /post/about.html
+  GitHub: https://github.com/xuexb/hexo-theme-mip
 
 favicon: /favicon.ico
-logo: /img/logo.jpg
-logo_mini: /img/logo_rect.jpg
 
 # Copyright Infomation
 startyear: 2017
 
-# Github edit path @yugasun
-github_edit:
-  url: https://github.com/jiandansousuo/jiandansousuo.com/edit/
-  branch: master
-  path: /source/
-
 mip:
-  cssmin: true
+  cssmin: false
+  css:
+    reset.css
+    nav.css
+    article.css
+    main.css
+    highlight.css
+    footer.css
+    pagination.css

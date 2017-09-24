@@ -2,10 +2,10 @@ meta(charset="utf-8")
 meta(name="X-UA-Compatible", content="IE=edge")
 
 title
-    block site_title
-        = config.title
+  block site_title
+    = config.title
 block description
-    meta(name="description", content= config.description ? config.description : 'A Blog Powered By Hexo')
+  meta(name="description", content= config.description ? config.description : 'A Blog Powered By Hexo')
 
 meta(name="viewport", content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no")
 link(rel="icon", href=url_for(theme.favicon))
@@ -13,6 +13,6 @@ link(rel="stylesheet", type="text/css", href="https://mipcache.bdstatic.com/stat
 != mipcss()
 
 - var xml = config.url + '/atom.xml'
-    link(rel="search", type="application/opensearchdescription+xml", href=xml, title=config.title)
+  link(rel="search", type="application/opensearchdescription+xml", href=xml, title=config.title)
 
-| !{ autoCanonical(config, page) }
+| !{ mipcanonical(page) }

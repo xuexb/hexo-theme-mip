@@ -1,0 +1,21 @@
+.pagination {
+  width: 100%;
+  line-height: 20px;
+  position: relative;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.pagination .prev {
+  float: left;
+}
+
+.pagination .next {
+  float: right;
+}
+
+.pagination a {
+    color: #2479c2;
+}

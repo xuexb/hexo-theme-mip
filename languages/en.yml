@@ -1,8 +1,8 @@
-prev: Prev
-next: Next
-prev_post: Prev
-next_post: Next
-more: More
+prev: << Prev
+next: Next >>
+prev_post: << Prev
+next_post: Next >>
+more: More >>
 
 menu:
   Home: Home

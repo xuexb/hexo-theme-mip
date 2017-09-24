@@ -1,29 +1,20 @@
 {
-  "name": "hexo-theme-apollo",
-  "version": "1.0.0",
-  "description": "A hexo theme inspired by vuejs.org",
-  "main": "index.js",
-  "scripts": {
-    "sass": "gulp sass"
-  },
+  "name": "hexo-theme-mip",
+  "version": "0.0.1",
+  "description": "Hexo MIP 模板",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pinggod/hexo-theme-apollo"
+    "url": "https://github.com/xuexb/hexo-theme-mip"
   },
   "keywords": [
     "hexo",
     "theme",
-    "apollo"
+    "mip"
   ],
-  "author": "Sean Sun",
+  "author": "xuexb <fe.xiaowu@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pinggod/hexo-theme-apollo/issues"
+    "url": "https://github.com/xuexb/hexo-theme-mip/issues"
   },
-  "homepage": "https://github.com/pinggod/hexo-theme-apollo#readme",
-  "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^3.0.2",
-    "gulp-sass": "^2.0.4"
-  }
+  "homepage": "https://github.com/xuexb/hexo-theme-mip#readme"
 }

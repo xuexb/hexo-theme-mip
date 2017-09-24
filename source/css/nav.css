@@ -1,0 +1,30 @@
+.mip-nav-wrapper {
+  padding: 0 10px;
+  background-color: #323436;
+}
+.navbar-brand {
+  color: #fff !important;
+}
+@media screen and (min-width: 767px) {
+  .mip-nav-wrapper a {
+    color: #fff !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .mip-nav-wrapper .navbar-brand {
+    margin-top: 2px;
+  }
+}
+.navbar-brand {
+  display: block;
+  overflow: hidden;
+  max-width: 200px;
+  line-height: 41px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+mip-fixed[type="top"],
+mip-fixed[type="bottom"] {
+  overflow: visible;
+}
