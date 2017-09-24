@@ -1,6 +1,6 @@
 {
   "name": "hexo-theme-mip",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Hexo MIP 模板",
   "scripts": {
     "postversion": "git push origin master && git push origin --tags"
