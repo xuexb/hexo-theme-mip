@@ -1,7 +1,10 @@
 {
   "name": "hexo-theme-mip",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Hexo MIP 模板",
+  "scripts": {
+    "postversion": "git push origin master && git push origin --tags"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/xuexb/hexo-theme-mip"
