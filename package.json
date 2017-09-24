@@ -9,6 +9,16 @@
     "type": "git",
     "url": "https://github.com/xuexb/hexo-theme-mip"
   },
+  "contributors": [
+    {
+      "name": "yugasun",
+      "email": "yuga.sun.bj@gmail.com"
+    },
+    {
+      "name": "xuexb",
+      "email": "fe.xiaowu@gmail.com"
+    }
+  ],
   "keywords": [
     "hexo",
     "theme",

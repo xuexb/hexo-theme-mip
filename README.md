@@ -89,6 +89,11 @@ archive_generator:
 
 - [ ] 标签页
 
+## contributors
+
+- [@yugasun](https://github.com/yugasun/)
+- [@xuexb](https://github.com/xuexb/)
+
 ## License
 
 [MIT](./LICENSE)
