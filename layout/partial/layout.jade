@@ -1,0 +1,18 @@
+doctype
+html(lang=config.language,mip)
+    head
+        include head
+    body
+        .wrap
+            header
+                a.logo-link(href=url_for())
+                    img(src=url_for(theme.logo) alt="logo")
+                a.logo-mini-link(href=url_for())
+                    img(src=url_for(theme.logo_mini) alt="logo-mini")
+                include nav
+            main.container
+                block container
+            footer
+                block pagination
+                include copyright
+                include scripts
