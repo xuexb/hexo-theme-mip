@@ -1,7 +1,6 @@
 menu:
   Home: /
   Archive: /archives/
-  About: /post/about.html
   GitHub: https://github.com/xuexb/hexo-theme-mip
 
 favicon: /favicon.ico

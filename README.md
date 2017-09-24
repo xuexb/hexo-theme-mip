@@ -29,6 +29,7 @@ subtitle: '网站二级页面标题后缀'
 description: '网站描述'
 author: '网站作者, 导航和版权使用'
 url: '网站绝对 http 链接'
+language: zh-cn
 
 # 启用 mip 主题
 theme: mip
