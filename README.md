@@ -1,22 +1,25 @@
 # hexo-theme-mip
 
-Hexo MIP 模板
+Hexo MIP 模板, [在线预览](https://xuexb.github.io/hexo-theme-mip-demo/)
 
 ## 安装
 
 ```bash
 # 安装依赖
 npm install --save \
+    hexo-browsersync \
     hexo-renderer-jade \
     hexo-generator-feed \
     hexo-generator-sitemap \
-    hexo-browsersync \
     hexo-generator-archive \
     hexo-generator-mip
 
 # 克隆主题
 git clone https://github.com/xuexb/hexo-theme-mip.git themes/mip
 ```
+
+> 注意: [hexo-generator-mip](https://github.com/xuexb/hexo-generator-mip) 模块会处理 MIP 规范的标签, 如抽离 `<style>`、处理 `<a>` 标签、处理 `<img>` 标签, 如果不使用 Hexo MIP 相关模板, 请不要安装该模块
+
 
 ## 配置
 
@@ -69,25 +72,32 @@ archive_generator:
 
 #### 默认 - 绿色
 
-    <div class="tip">
-        预处理器很强大，但它只是编写 CSS 的辅助工具。出于对扩展和维护等方面的考虑，在大型项目中有必要使用预处理器构建 CSS；但是对于小型项目，原生的 CSS 可能是一种更好的选择。不要肆意使用预处理器！
-    </div>
+```html
+<div class="tip">
+    预处理器很强大，但它只是编写 CSS 的辅助工具。出于对扩展和维护等方面的考虑，在大型项目中有必要使用预处理器构建 CSS；但是对于小型项目，原生的 CSS 可能是一种更好的选择。不要肆意使用预处理器！
+</div>
+```
 
 #### 提示 - 蓝色
 
-    <div class="tip-info">
-        预处理器很强大，但它只是编写 CSS 的辅助工具。出于对扩展和维护等方面的考虑，在大型项目中有必要使用预处理器构建 CSS；但是对于小型项目，原生的 CSS 可能是一种更好的选择。不要肆意使用预处理器！
-    </div>
+```html
+<div class="tip-info">
+    预处理器很强大，但它只是编写 CSS 的辅助工具。出于对扩展和维护等方面的考虑，在大型项目中有必要使用预处理器构建 CSS；但是对于小型项目，原生的 CSS 可能是一种更好的选择。不要肆意使用预处理器！
+</div>
+```
 
 #### 警告 - 红色
 
-    <div class="tip-error">
-        预处理器很强大，但它只是编写 CSS 的辅助工具。出于对扩展和维护等方面的考虑，在大型项目中有必要使用预处理器构建 CSS；但是对于小型项目，原生的 CSS 可能是一种更好的选择。不要肆意使用预处理器！
-    </div>
+```html
+<div class="tip-error">
+    预处理器很强大，但它只是编写 CSS 的辅助工具。出于对扩展和维护等方面的考虑，在大型项目中有必要使用预处理器构建 CSS；但是对于小型项目，原生的 CSS 可能是一种更好的选择。不要肆意使用预处理器！
+</div>
+```
 
 ## todo
 
 - [ ] 标签页
+- [ ] 搜索页
 
 ## contributors
 
