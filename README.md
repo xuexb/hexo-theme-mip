@@ -18,9 +18,6 @@ npm install --save \
 git clone https://github.com/xuexb/hexo-theme-mip.git themes/mip
 ```
 
-> 注意: [hexo-generator-mip](https://github.com/xuexb/hexo-generator-mip) 模块会处理 MIP 规范的标签, 如抽离 `<style>`、处理 `<a>` 标签、处理 `<img>` 标签, 如果不使用 Hexo MIP 相关模板, 请不要安装该模块
-
-
 ## 配置
 
 修改 `_config.yml` 的 `theme` 配置项为 `mip`:
